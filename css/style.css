@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+a:hover {
+    color: ivory;
+}
+
+
+img:hover {
+    color: coral;
+}
+img{
+    transition: .5s;
+}
+img:hover {
+    transform:scale(1.2)
+}
+p{
+    font-weight: bold;
+}
+.list-item {
+    color: darkred;
+    font-size: 24px;
+}
+.active {
+    color: darkgoldenrod;
+}
+#top {
+    background-color: deepskyblue;
+}
+.box li {
+    font-style: italic;
+}
+.box li a { 
+ color: coral;
+}
+.box > a {
+    font-size: 303px;
+}
+.box ul + a {
+    background: darkgreen;
+}
+table thead {
+    background: darkmagenta;
+}
+.box ul ~ a {
+    color: darkslategrey;
+}
+input[tape=text] {
+    height: 70px;
+    border: 2px solid rgb(0, 17, 255);
+    border-radius: 50% 0 50% 0;
+}
+
+.box #box-title{
+    color: indigo;
+}
+.box .title {
+    color: firebrick;
+}
+.box h2 {
+    color: gold;
+}
