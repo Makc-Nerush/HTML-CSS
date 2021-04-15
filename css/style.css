@@ -1,11 +1,21 @@
 * {
     margin: 0;
 }
+a:link { color: red; 
+}
+a:visited { color: grey; 
+}
 a:hover {
     color: ivory;
 }
-
-
+a:checked { color: black;
+}
+a:disabled {
+    color: blue;
+}
+a:focus {
+    color: olive;
+}
 img:hover {
     color: coral;
 }
